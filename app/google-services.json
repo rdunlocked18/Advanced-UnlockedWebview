@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "470732265892",
+    "firebase_url": "https://mahabhartiapp.firebaseio.com",
+    "project_id": "mahabhartiapp",
+    "storage_bucket": "mahabhartiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470732265892:android:4a69d23acc3fa983f2c931",
+        "android_client_info": {
+          "package_name": "com.daftarirn.mahabhartiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470732265892-e456ttlv1ss3hc4t4mf9t3rooq1rrmai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daftarirn.mahabhartiapp",
+            "certificate_hash": "4f688109ee784996052829daab4dcea0573557f3"
+          }
+        },
+        {
+          "client_id": "470732265892-ggh1alq86mg57l7lsfsd3upv46e6pf8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFiefGq3piulwQofzDiuCBmKYjCANQuHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470732265892-ggh1alq86mg57l7lsfsd3upv46e6pf8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

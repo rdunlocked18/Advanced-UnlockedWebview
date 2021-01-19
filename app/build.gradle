@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.3'
+
+    defaultConfig {
+        applicationId "com.daftarirn.mahabhartiapp"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 40
+        versionName "2.3.7"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.13.1'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.firebase:firebase-core:18.0.1'
+
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+
+    //FOR ANDROID X SUPPORT LIBRARIES
+    //implementation 'com.github.izooto-mobile-sdk:android-X:1.0.10'
+
+    //FOR LEGACY ANDROID SUPPORT LIBRARIES
+   // implementation 'com.github.izooto-mobile-sdk:legacy-android:1.0.3'
+    //implementation 'com.google.firebase:firebase-messaging:21.0.1'
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'
