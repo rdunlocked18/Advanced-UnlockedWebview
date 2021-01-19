@@ -30,7 +30,7 @@ import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.InterstitialAd;
+
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -43,7 +43,7 @@ import java.util.Timer;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     public boolean doubleBackToExitPressedOnce = false;
-    private InterstitialAd interstitial;
+
     private NavigationView navigationView;
     public Timer AdTimer;
     public WebView mWebView;

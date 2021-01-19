@@ -31,17 +31,26 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'com.google.firebase:firebase-core:18.0.1'
 
-    implementation 'com.google.firebase:firebase-messaging:21.0.1'
-    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+
+    //
+    //implementation 'com.google.android.gms:play-services-ads:19.6.0'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'com.google.android.gms:play-services-analytics:17.0.0'
     implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+
+    implementation platform('com.google.firebase:firebase-bom:26.3.0')
+
+    // Declare the dependencies for the Firebase Cloud Messaging and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-analytics'
+
 
     //FOR ANDROID X SUPPORT LIBRARIES
     //implementation 'com.github.izooto-mobile-sdk:android-X:1.0.10'
 
     //FOR LEGACY ANDROID SUPPORT LIBRARIES
-   // implementation 'com.github.izooto-mobile-sdk:legacy-android:1.0.3'
+    //implementation 'com.github.izooto-mobile-sdk:legacy-android:1.0.3'
     //implementation 'com.google.firebase:firebase-messaging:21.0.1'
 
 

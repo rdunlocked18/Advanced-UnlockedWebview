@@ -15,17 +15,11 @@
     <!-- For use GCM you need to set your Google Api Project Number -->
 
     <!-- For use Google Maps you need to set your Google Maps API Key -->
-    <string name="gmap_key" translatable="false"></string>
     <string name="coordinate_lat" translatable="false">40.708105</string>
     <string name="coordinate_long" translatable="false">-74.006307</string>
 
 
     <!-- Server to register token (for push notification) OPTIONAL -->
-    <string name="db_field_token" translatable="false">user_android_token</string>
-    <string name="db_field_latitude" translatable="false">user_lat</string>
-    <string name="db_field_longitude" translatable="false">user_lon</string>
-    <string name="db_field_appversion" translatable="false">user_app_version</string>
-    <string name="server_url" translatable="false">#</string>
 
     <!-- AD Mob Publusher ID -->
 
@@ -71,7 +65,6 @@
     <string name="credits_url">https://mahabharti.in/about-us/</string>
     <string name="share_linker" translatable="false">This is the Important Job Update :</string>
 
-    <string name="help_label">मदतकेंद</string>
     <string name="help_type">url</string>
     <string name="help_url">https://mahabharti.in/helpline/</string>
 
@@ -109,8 +102,6 @@
     </string-array>
 
     <!-- GPS -->
-    <string name="gps_dialog_title">Geo-based push (optional)</string>
-    <string name="gps_dialog_message">Do you want receive Geo Push notifications? If you want to try the Geo Push Panel: http://goo.gl/gsj5nO</string>
 
     <!-- Example settings for Notifications -->
     <string name="pref_header_notifications">Notifications</string>
